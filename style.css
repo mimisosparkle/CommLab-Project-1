@@ -2,11 +2,6 @@
     margin: 0;
 }
 
-body {
-  background-color: rgb(220, 192, 156);
-  /* background-image: url("webBg.jpg"); */
-}
-
 .link {
 text-decoration: none;
 color:   #d7cdcd;
@@ -14,6 +9,11 @@ color:   #d7cdcd;
 
 .link:hover {
   color:#9e9286;
+}
+
+body {
+  background-color: rgb(220, 192, 156);
+  /* background-image: url("webBg.jpg"); */
 }
 
 @font-face {
@@ -97,7 +97,7 @@ h6.centered{ /* captions under images*/
   margin-left: auto;
   margin-right: auto;
   margin-top: 200px;
-  margin-bottom: 0px;
+  margin-bottom: 50px;
   /* width: 20%; */
 } 
 
@@ -110,7 +110,7 @@ h6.centered{ /* captions under images*/
 .exitSign-container {
   /* position: relative; */
   width: 200px; /* same as image width so it avoids distortion */
-  margin: 200px auto 0; /* 200px space from above, centered automatically, 0px below */ 
+  margin: 200px auto 0px; /* 200px space from above, centered automatically, 0px below  */
   cursor: pointer;
 }
 
