@@ -25,5 +25,5 @@ function turnOffExit() {
 
 //fake exit where it scrolls back to top of page
 function scrollToTop() {
-    window.scrollTo(0, 0); // this worked yayy! (x=0,y=0) bc thats the very top of the page!
+    window.scrollTo({top: 0, behavior: "smooth"}); // this worked yayy! (x=0,y=0) bc thats the very top of the page!
 }
